@@ -1,0 +1,10 @@
+.anchor {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  margin-bottom: 76px;
+}
+

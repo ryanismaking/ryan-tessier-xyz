@@ -1,0 +1,10 @@
+.headline {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: -0.1rem;
+  margin: 0;
+  margin-bottom: 72px;
+}

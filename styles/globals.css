@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  font-family: "Source Sans Pro", serif;
+  font-size: 16px;
+  color: #737373;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 70px;
+  margin-top: 76px;
+  margin-bottom: 64px;
+  text-align: center;
+}
