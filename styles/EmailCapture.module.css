@@ -19,7 +19,6 @@
   font-size: 20px;
   line-height: 28px;
   letter-spacing: normal;
-  font-weight: 700;
 }
 
 .form {
@@ -47,7 +46,7 @@
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.15rem;
   appearance: none;
-  background-color: #00d8fe;
+  background-color: #ffc700;
   border: none;
   border-radius: 4px;
   padding: 8px 0;
