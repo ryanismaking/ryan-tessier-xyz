@@ -20,7 +20,7 @@ const ArticleList: FunctionComponent<ArticleListProps> = (
       <h2 className={styles.subheading}>Latest articles</h2>
       <ul className={styles.list}>
         {props.articlePreviews.map((articlePreview) => (
-          <li className={styles.listItem}>
+          <li className={styles.listItem} key={articlePreview.slug}>
             <Link href={`/articles/${articlePreview.slug}`}>
               <a className={styles.anchor}>{articlePreview.title}</a>
             </Link>

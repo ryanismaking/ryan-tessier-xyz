@@ -6,7 +6,13 @@ import Image from "next/image";
 const Author: FunctionComponent = () => {
   return (
     <div className={styles.container}>
-      <Image src={avatar} className={styles.avatar} width={64} height={64} />
+      <Image
+        src={avatar}
+        className={styles.avatar}
+        width={64}
+        height={64}
+        alt=""
+      />
       <div className={styles.name}>Ryan Tessier</div>
     </div>
   );
