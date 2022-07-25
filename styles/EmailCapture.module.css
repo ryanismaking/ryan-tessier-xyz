@@ -32,9 +32,15 @@
   column-gap: 16px;
 }
 
+.textFieldContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
 .textField {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.15rem;
+  font-size: 20px;
   padding: 8px 16px;
   border: 1px solid #737373;
   border-radius: 4px;
@@ -42,9 +48,15 @@
   margin: 0;
 }
 
+.textFieldLabel {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .button {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.15rem;
+  font-size: 16px;
   appearance: none;
   background-color: #ffc700;
   border: none;

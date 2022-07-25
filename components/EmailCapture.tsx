@@ -10,20 +10,25 @@ const EmailCapture: FunctionComponent = () => {
         insights on the path to designing thoughtful products. Drop me your
         contact details and I’ll send new stuff straight to your inbox!
       </p>
-      <form className={styles.form}>
+      <form
+        name="subscribe"
+        method="POST"
+        className={styles.form}
+        data-netlify="true"
+      >
         <div className={styles.textFields}>
-          <input
-            type="text"
-            placeholder="Your first name"
-            className={styles.textField}
-          />
-          <input
-            type="text"
-            placeholder="Your email address"
-            className={styles.textField}
-          />
+          <div className={styles.textFieldContainer}>
+            <label className={styles.textFieldLabel}>First name</label>
+            <input type="text" name="first-name" className={styles.textField} />
+          </div>
+          <div className={styles.textFieldContainer}>
+            <label className={styles.textFieldLabel}>Email</label>
+            <input type="text" name="email" className={styles.textField} />
+          </div>
         </div>
-        <button className={styles.button}>Put me on the list</button>
+        <button type="submit" className={styles.button}>
+          Put me on the list
+        </button>
         <p className={styles.footnote}>
           No spam, I promise. You can unsubscribe anytime.
         </p>
