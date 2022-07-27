@@ -43,11 +43,11 @@ const EmailCapture: FunctionComponent = () => {
 
   return (
     <div className={styles.section}>
-      <h2 className={styles.title}>Level up your product design craft</h2>
+      <h2 className={styles.title}>Learn product design with me!</h2>
       <p className={styles.introduction}>
-        Every Thursday, I send other learning-driven product designers my
-        insights on the path to designing thoughtful products. Drop me your
-        contact details and I’ll send new stuff straight to your inbox!
+        I send other growth-oriented product designers my insights on the path
+        to designing successful digital products. Drop me your contact details
+        and I’ll send new stuff straight to your inbox!
       </p>
       <form
         name="subscribe"

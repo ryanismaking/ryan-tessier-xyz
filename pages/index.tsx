@@ -52,7 +52,7 @@ const Home: NextPage<{ articlePreviews: ArticlePreview[] }> = ({
     <main>
       <Title />
 
-      <Headline>A growth-mindset guide to thoughtful product design</Headline>
+      <Headline>A guide to product design with a growth mindset</Headline>
 
       <EmailCapture />
 
