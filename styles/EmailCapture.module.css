@@ -2,7 +2,13 @@
   background-color: #f5f5f5;
   margin: 76px auto;
   max-width: 800px;
-  padding: 48px 70px;
+  padding: 48px 32px;
+}
+
+@media screen and (min-width: 420px) {
+  .section {
+    padding: 48px 70px;
+  }
 }
 
 .title {
@@ -24,12 +30,19 @@
 .form {
   display: flex;
   flex-direction: column;
-  row-gap: 16px;
+  row-gap: 24px;
 }
 
 .textFields {
   display: flex;
-  column-gap: 16px;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media screen and (min-width: 420px) {
+  .textFields {
+    flex-direction: row;
+  }
 }
 
 .textFieldContainer {
@@ -62,7 +75,7 @@
   background-color: #ffc700;
   border: none;
   border-radius: 4px;
-  padding: 8px 0;
+  padding: 12px 0;
   width: 100%;
   font-weight: 700;
   margin: 0;
