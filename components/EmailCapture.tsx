@@ -66,6 +66,7 @@ const EmailCapture: FunctionComponent = () => {
               type="text"
               id="first-name"
               name="first-name"
+              required
               value={firstName}
               onChange={updateFirstName}
               className={styles.textField}
@@ -79,6 +80,7 @@ const EmailCapture: FunctionComponent = () => {
               type="email"
               id="email-address"
               name="email-address"
+              required
               value={emailAddress}
               onChange={updateEmailAddress}
               className={styles.textField}
